@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,33 +17,33 @@
 
     <section data-cy="hw1-section-main-pre">
         <!-- 1) В этом разделе создай 3 дочерних элемента: -->
-        <h1>Карпов Даниил Александрович</h1>
+        <h1>Karpov Daniil Alexandrovich</h1>
         <!-- a) Заголовок первого уровня со своим ФИО -->
         <!-- b) Несколько строк о себе: где учишься или работаешь, хобби, увлечения. Используй тег для абзаца. Длина строки должна быть больше 50-ти симвов (пробелы и др знаки припинания тоже считаются символом) -->
         <!-- c) Фото (или любую картинку из интернета). Не забудь добавить описание на случай, если изображение не загрузится -->         
-        <p>Работаю в РЖД. Организую любительский футбол. Собрал команду. Последние 4 года увлекаюсь настольными играми и чтением сайта с готической буквой кофейного цвета на черном фоне.</p>
+        <p>I work for the Russian Railways. I organize amateur football. I've organized a team. For the last 4 years I am fond of board games and read opposition media</p>
         <img src="https://sun9-21.userapi.com/s/v1/ig2/2H4rCb484wACgz3VrP27ycY8bZSz4g3YO8QZzZJmpDxLIBGOiXgs8CBx1i8DS2rRcuxPtnEyFoeVyOqCCmIzpvsP.jpg?quality=95&blur=50,20&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1024x1280&from=bu&u=kXTwLW8raHVLHinRfR28Xwg7-cirGiHVxK4SUisu41A&cs=720x900" alt="тут лежу я в любимой толсковке" width="600" height="580">
     </section>
 
     <section data-cy="hw1-section-about-pre">
         <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
          <select name="select city" id="selectCity">
-            <option value="Minsk">Минск</option>
-            <option selected value="Penza">Пенза</option>
-            <option value="Moscow">Москва</option>
+            <option value="Minsk">Minsk</option>
+            <option selected value="Penza">Penza</option>
+            <option value="Moscow">Moscow</option>
          </select>
         <div data-cy="hw1-unordered-list-box-pre">
             <!-- 3) В этом разделе создай 2 дочерних элемента: -->
 
             <!-- a) Заголовок 2-го уровня (любимые книги/фильмы/блюда/страны... и т.п.) -->
             <!-- b) Маркированный список. В списке должно быть не менее 3-х элементов -->
-             <h2>Универсальные настольные игры в подарок друзьям и близким</h2>
+             <h2>Universal board games as a gift for friends and family</h2>
              <ul>
-                <li>Безмолвный свидетель</li>
-                <li>МикроМакро</li>
-                <li>Кольт Экспресс</li>
-                <li>Жадюги</li>
-                <li>Селестия</li>
+                <li>Silent Witness</li>
+                <li>MicroMacro</li>
+                <li>Colt Express</li>
+                <li>Gold Fever</li>
+                <li>Celestia</li>
              </ul>
         </div>
         <div data-cy="hw1-ordered-list-box-pre">
@@ -51,32 +51,32 @@
 
             <!-- a) Заголовок 2-го уровня с другим названием (любимые книги/фильмы/блюда/страны... и т.п.) -->
             <!-- b) Нумерованный (упорядоченный) список. В списке должно быть не менее 3-х элементов -->
-             <h2>Мой топ 5 настольных игр</h2>
+             <h2>My top 5 board games</h2>
              <ol>
                 <li>Keyflower</li>
-                <li>Иниш</li>
-                <li>Космический контакт</li>
-                <li>Санторини</li>
-                <li>Тип топ</li>
+                <li>Inis</li>
+                <li>Cosmic Encounter</li>
+                <li>Santorini</li>
+                <li>Top ten</li>
              </ol>
         </div>
         <div data-cy="hw1-skills-box-pre">
-            <h2>Мои скиллы</h2>
+            <h2>My Skills</h2>
             <!-- 4) Здесь создай несколько чекбоксов с подписью (не меньше 3-х). 
                 - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
                 - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
                 - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
                 <label for="">
                     <input type="checkbox" checked>
-                    Теги
+                    Tags
                 </label>
                 <label for="">
                     <input type="checkbox" checked>
-                    Семантика
+                    Semantics
                 </label>
                 <label for="">
                     <input type="checkbox" >
-                    Стили
+                    Styles
                 </label>
 
 
@@ -86,7 +86,7 @@
         <!-- 6) Создай здесь кнопку “Добавить” -->
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
          <input type="text" placeholder="Новый скилл">
-         <button name="add">Добавить</button>
+         <button name="add">Add</button>
          <hr>         
         
         <table data-cy="hw-about-table-pre">
@@ -96,27 +96,27 @@
                         - В последнем ряду первая ячейка должна занимать все свободное место по горизонтали (ширине). Таблицу можно заполнять любыми данными -->                   
             <table border="1">
                     <tr>
-                        <th>п/п</th>
-                        <th>Наименование</th>
-                        <th>Количество</th>
+                        <th>quantity</th>
+                        <th>Name</th>
+                        <th>Quantity</th>
                     </tr>                          
                     <tr>
                         <td>1</td>
-                        <td>Монитор</td>
+                        <td>Monitor</td>
                         <td>2</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Клавиатура</td>
+                        <td>Keyboard</td>
                         <td>1</td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Мышь</td>
+                        <td>Mouse</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td colspan="2">Итого:</td>
+                        <td colspan="2">Total:</td>
                         <td>1</td>
                     </tr>     
             </table>
